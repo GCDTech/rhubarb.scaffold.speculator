@@ -1,5 +1,5 @@
 {
-  "name": "gcdtech/scaffold.speculator",
+  "name": "gcdtech/rhubarb.scaffold.speculator",
   "description": "A scaffold for bootstrapping the speculator documentation engine into your Rhubarb project",
   "minimum-stability": "stable",
   "license": "proprietary",
