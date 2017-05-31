@@ -15,6 +15,6 @@
     }
   },
   "require": {
-    "gcdtech/speculator" : "^1.0.1"
+    "gcdtech/speculator" : "^1.0.0"
   }
 }
