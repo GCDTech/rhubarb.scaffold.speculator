@@ -1,0 +1,20 @@
+{
+  "name": "gcdtech/scaffold.speculator",
+  "description": "A scaffold for bootstrapping the speculator documentation engine into your Rhubarb project",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrew Cuthbert",
+      "email": "acuthbert@gcdtech.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Gcd\\Speculator\\Rhubarb\\": "src/"
+    }
+  },
+  "require": {
+    "gcdtech/speculator" : "^1.0.1"
+  }
+}
