@@ -22,8 +22,9 @@ class SpeculatorUrlHandler extends UrlHandler
         Model::clearAllRepositories();
         Repository::setDefaultRepositoryClassName(Offline::class);
 
+        define("SPECS_URL_STUB", $this->url);
+
         chdir(APPLICATION_ROOT_DIR);
-        $_SERVER["REQUEST_URI"] = preg_replace('/^'.str_replace("/", "\\/", $this->url).'/', '/', $_SERVER["REQUEST_URI"]);
 
         include VENDOR_DIR.'/gcdtech/speculator/src/speculator.php';
         exit;
